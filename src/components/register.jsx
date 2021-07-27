@@ -44,7 +44,7 @@ function Register() {
         </div>
 
         <div className="d-flex justify-content-center mt-3">
-            <p>Already have an account?</p><Link to="/">Login</Link>
+            <p>Already have an account?</p><Link to="login">Login</Link>
         </div>
       </div>
       </div>

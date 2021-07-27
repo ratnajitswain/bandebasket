@@ -1,0 +1,33 @@
+.bodydiv {
+  background-image: linear-gradient(to right, #0b327f, #06183c);
+  height: 100vh;
+  width: 100%;
+  color: white;
+  overflow: hidden;
+}
+
+.home-content{  
+    text-align: justify;
+    text-align-last: center;
+
+}
+.home-content>div{  
+    width:75%;
+
+}
+h1{  
+    font-size:5rem !important;
+    margin-top:30vh !important;
+}
+
+@media only screen and (max-width: 600px) {
+    h1{  
+        font-size:1.5rem !important;
+        margin-top:20vh !important;
+    }
+    .home-content>div{  
+        width:100%;
+    
+    }
+    
+}
